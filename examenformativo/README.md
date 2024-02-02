@@ -10,4 +10,6 @@ pantalla/taskListScreen.dart
 Este archivo define la pantalla principal (TaskListScreen) que muestra la lista de tareas. Utiliza Consumer<TaskProvider> para escuchar los cambios en la lista de tareas y actualizar la interfaz de usuario en consecuencia. Se utiliza un ListView.builder para mostrar cada tarea con opciones para marcarla como completada, eliminarla o editarla.
 pantalla/taskCreateScreen.dart
 
-Este archivo define la pantalla para agregar o editar una tarea (AddEditTaskScreen). Dependiendo de si se proporciona una tarea existente, la pantalla mostrará un formulario para agregar una nueva tarea o para editar la tarea existente. La información se recopila mediante controladores de texto y se guarda en el TaskProvider usando Provider.of<TaskProvider>(context, listen: false).
+Este archivo define la pantalla para agregar o editar una tarea (AddEditTaskScreen). Dependiendo de si se proporciona una tarea existente, la pantalla mostrará un formulario para agregar una nueva tarea o para editar la tarea existente. La información se recopila mediante controladores de texto y se guarda en el TaskProvider usando Provider.of<TaskProvider>(context, listen: false).![Captura de pantalla 2024-02-01 191722](https://github.com/juanpispablo200/examenformativos/assets/116582110/64bf188e-c08c-4822-9f34-57172cb2fac0)
+![Uploading Captura de pantalla 2024-02-01 191722.png…]()
+![Captura de pantalla 2024-02-01 191816](https://github.com/juanpispablo200/examenformativos/assets/116582110/2231ffa3-7847-46c4-af63-2a5f3b8e280c)
